@@ -51,7 +51,7 @@ This guide covers everything needed to set up a development environment, underst
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/storageflow.git
+git clone https://github.com/varundeva/storageflow.git
 cd storageflow
 
 # Create development branch

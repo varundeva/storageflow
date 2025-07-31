@@ -527,7 +527,7 @@ class StorageFlowController {
     if (githubBtn) {
       githubBtn.addEventListener("click", () => {
         console.log("GitHub button clicked");
-        this.openExternalLink("https://github.com/StorageFlow/StorageFlow");
+        this.openExternalLink("https://github.com/varundeva/storageflow");
       });
     }
 
@@ -580,7 +580,7 @@ class StorageFlowController {
     if (githubLink) {
       githubLink.addEventListener("click", () => {
         console.log("GitHub link clicked");
-        this.openExternalLink("https://github.com/StorageFlow/StorageFlow");
+        this.openExternalLink("https://github.com/varundeva/storageflow");
       });
     }
 
@@ -589,7 +589,7 @@ class StorageFlowController {
       issuesLink.addEventListener("click", () => {
         console.log("Issues link clicked");
         this.openExternalLink(
-          "https://github.com/StorageFlow/StorageFlow/issues"
+          "https://github.com/varundeva/storageflow/issues"
         );
       });
     }
@@ -599,7 +599,7 @@ class StorageFlowController {
       documentationLink.addEventListener("click", () => {
         console.log("Documentation link clicked");
         this.openExternalLink(
-          "https://github.com/StorageFlow/StorageFlow/wiki"
+          "https://github.com/varundeva/storageflow/wiki"
         );
       });
     }

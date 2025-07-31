@@ -71,7 +71,7 @@ This method is for developers or users who want to install from source code.
 
    ```bash
    # Clone from GitHub
-   git clone https://github.com/your-repo/storageflow.git
+   git clone https://github.com/varundeva/storageflow.git
    cd storageflow
 
    # Or download ZIP file and extract
