@@ -1,0 +1,39 @@
+<!-- SVG icon for Local Manager Chrome Extension -->
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="storage" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="url(#bg)" stroke="#ffffff" stroke-width="2"/>
+  
+  <!-- Database/Storage icon -->
+  <g transform="translate(64, 64)">
+    <!-- Main database cylinder -->
+    <ellipse cx="0" cy="-20" rx="24" ry="8" fill="url(#storage)"/>
+    <rect x="-24" y="-20" width="48" height="40" fill="url(#storage)"/>
+    <ellipse cx="0" cy="20" rx="24" ry="8" fill="#4338ca"/>
+    
+    <!-- Data lines -->
+    <rect x="-16" y="-12" width="32" height="2" fill="#ffffff" opacity="0.8" rx="1"/>
+    <rect x="-16" y="-6" width="20" height="2" fill="#ffffff" opacity="0.8" rx="1"/>
+    <rect x="-16" y="0" width="28" height="2" fill="#ffffff" opacity="0.8" rx="1"/>
+    <rect x="-16" y="6" width="16" height="2" fill="#ffffff" opacity="0.8" rx="1"/>
+    <rect x="-16" y="12" width="24" height="2" fill="#ffffff" opacity="0.8" rx="1"/>
+    
+    <!-- Transfer arrows -->
+    <g transform="translate(30, -5)">
+      <path d="M0,0 L8,0 L6,3 M8,0 L6,-3" stroke="#fbbf24" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(30, 10) scale(1, -1)">
+      <path d="M0,0 L8,0 L6,3 M8,0 L6,-3" stroke="#fbbf24" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
