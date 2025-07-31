@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "StorageFlow - Browser Storage Manager",
   "version": "2.0.0",
-  "description": "Seamlessly manage localStorage & sessionStorage with professional tools for import/export, editing, and cross-tab data transfer. Perfect for developers and power users.",
+  "description": "Easily manage localStorage & sessionStorage with import/export, edit, and sync tools. Ideal for devs & power users.",
   "permissions": [
     "storage",
     "activeTab",
