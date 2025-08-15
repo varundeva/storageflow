@@ -45,8 +45,8 @@ StorageFlow is a powerful and intuitive Chrome extension for managing browser st
 ## 📦 Installation
 
 ### From Chrome Web Store (Recommended)
+[Install from Chrome Extensions](https://chromewebstore.google.com/detail/ingjgnjmllenigkebdjnilghaoemhnbn?utm_source=item-share-cb)
 
-_Coming Soon - Extension will be published to Chrome Web Store_
 
 ### Developer Installation
 
@@ -218,3 +218,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Made with ❤️ for developers and power users who need better browser storage tools.**
 
 For detailed technical documentation, see the [docs](./docs/) directory.
+
